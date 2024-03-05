@@ -1,0 +1,631 @@
+@media screen and (max-width:1142px) {
+    .hero-part-01-text p:first-child {
+        font-size: 30px;
+    }
+
+    .hero-part-01-text p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .hero-part-02-text p:first-child {
+        font-size: 30px;
+    }
+
+    .hero-part-02-text p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .about-text-top p:first-child {
+        font-size: 50px;
+    }
+
+    .about-text-top {
+        height: 350px;
+    }
+
+    .about-text-top p:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .about-text-boutem-content p:first-child {
+        font-size: 40px;
+    }
+
+    .about-text-boutem-content p:nth-child(2){
+        font-size: 19px;
+    }
+
+    .services{
+        height: 1150px;
+    }
+
+    .services-text{
+        height: 300px;
+    }
+
+    .login{
+        width: 39vw;
+        height: 510px;
+    }
+
+    .login>h2{
+        font-size: 40px;
+    }
+
+    /* .signup>h2{
+        font-size: 38px;
+    } */
+
+    form>p{
+        padding: 8px 0;
+    }
+
+    form>input{
+    width: 35vw;
+    }
+
+    form>p>a{
+        width: 35vw;
+        font-size: 23px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+
+    form>span{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1022px) {
+    h2 {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero_text {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .facillites{
+        height: 1200px;
+    }
+
+    .facillites-text{
+        height: 330px;
+    }
+
+    .services{
+        height: 1200px;
+    }
+
+    .services-text{
+        height: 370px;
+    }
+
+    .services-text p:first-child{
+        font-size: 45px;
+    }
+
+    .services-text p:nth-child(2){
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:847px) {
+    label {
+        display: flex;
+        justify-content: space-around;
+        color: black;
+        font-size: 40px;
+    }
+
+    .res {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        /* background-color: #170336c9; */
+        backdrop-filter: blur(10px);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .4s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        color: antiquewhite;
+    }
+
+    a:hover {
+        background: none;
+        color: rgb(238, 24, 174);
+        font-weight: 600;
+    }
+
+    #check:checked~ul {
+        left: 0;
+        z-index: 3;
+        transition: all .4s;
+    }
+
+    .bg-img {
+        position: relative;
+        /* z-index: -1; */
+    }
+
+    .hero_text {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 100vw;
+    }
+
+    .hero-part-01 {
+        flex-direction: column-reverse;
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-part-01-img {
+        width: 85%;
+        height: 650px;
+    }
+
+    .hero-part-01-text {
+        width: 85%;
+        height: 430px;
+    }
+
+    .hero-part-02 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+    }
+
+    .hero-part-02-img {
+        /* position: fixed; */
+        width: 60%;
+        height: 840px;
+        top: 0;
+    }
+
+    .hero-part-02-text {
+        width: 85%;
+    }
+
+    .mani{
+        height: 990px;
+    }
+
+    .about-text-top{
+        height: 260px;
+    }
+
+    .about-text-top p:first-child{
+        font-size: 35px;
+    }
+
+    .about-text-top p:nth-child(2){
+        font-size: 21px;
+    }
+
+    .about-text-boutem{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 780px;
+    }
+
+    .about-img{
+        width: 50%;
+        height: 350px;
+    }
+
+    .about-text-boutem-content{
+        width: 85%;
+    }
+
+    .about-text-boutem-content p:first-child{
+        font-size: 35px;
+    }
+
+    .f-img-box{
+        height: 300px;
+        width: 283px;
+    }
+
+    .services-f-img-box{
+        height: 260px;
+        width: 340px;
+    }
+
+    .join-now{
+        width: 50%;
+    }
+
+     .join-now>h2{
+        font-size: 34px;
+    }
+
+    .join-now>form{
+        padding: 16px;
+    }
+
+    .join-now>form p{
+        font-size: 23px;
+        padding: 10px 0;
+    }
+
+    .join-now>form input{
+        width: 45vw;
+    }
+
+    .join-now>form input:nth-child(10){
+        font-size: 15px;
+        width: 140px;
+    }
+
+    .login{
+        width: 50vw;
+        height: 480px;
+    }
+
+    .login>h2{
+        font-size: 34px;
+    }
+
+    form>p{
+        padding: 5px 0;
+    }
+
+    form>input{
+    width: 45vw;
+    }
+
+    form>p{
+        font-size: 20px;
+    }
+
+    form>p>a{
+        width: 45vw;
+        font-size: 20px;
+    }
+
+    button>a{
+        font-size: 19px;
+    }
+
+    button{
+        padding: 20px 30;
+    }
+
+    form>span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:570px) {
+
+    .hero_text {
+        font-size: 10px;
+    }
+
+    .hero-part-01 {
+        height: 700px;
+    }
+
+    .hero-part-01-text {
+        height: 370px;
+    }
+
+    .hero-part-02-img {
+        width: 50%;
+        height: 300px;
+    }
+
+    .hero-part-01-text p:first-child {
+        font-size: 20px;
+    }
+
+    .hero-part-01-text p:nth-child(2) {
+        font-size: 19px;
+    }
+
+    .hero-part-02-text p:first-child {
+        font-size: 20px;
+    }
+
+    .hero-part-02-text p:nth-child(2) {
+        font-size: 19px;
+    }
+
+    .mani{
+        height: 900px;
+    }
+
+    .about-text-top{
+        height: 220px;
+    }
+
+    .about-text-top p:first-child{
+        font-size: 28px;
+    }
+
+    .about-text-top p:nth-child(2){
+        font-size: 17px;
+    }
+
+    .about-img{
+        width: 50%;
+        height: 280px;
+    }
+
+    .about-text-boutem{
+        height: 680px;
+    }
+
+    .about-text-boutem-content{
+        width: 85%;
+    }
+
+    .about-text-boutem-content p:first-child{
+        font-size: 27px;
+    }
+
+    .about-text-boutem-content p:nth-child(2){
+        font-size: 15px;
+    }
+
+    .facillites-text{
+        height: 230px;
+    }
+
+    .facillites-text p:first-child{
+        font-size: 30px;
+    }
+
+    .facillites-text p:nth-child(2){
+        font-size: 15px;
+    }
+
+    .facillites{
+        height: 1490px;
+    }
+
+    .services{
+        height: 1490px;
+    }
+
+    .services-text p:first-child{
+        font-size: 35px;
+    }
+
+    .services-text p:nth-child(2){
+        font-size: 16px;
+    }
+
+    .join-now{
+        width: 65%;
+        height:  460px;
+    }
+
+     .join-now>h2{
+        font-size: 28px;
+    }
+
+    .join-now>form{
+        padding: 16px;
+    }
+
+    .join-now>form p{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .join-now>form input{
+        width: 58vw;
+    }
+
+    .join-now>form input:nth-child(10){
+        font-size: 25px;
+    }
+
+    .login{
+        width: 68vw;
+        height: 420px;
+    }
+
+    .login>h2{
+        font-size: 27px;
+    }
+
+    form>input{
+    width: 60vw;
+    font-size: 20px;
+    }
+
+    form>p{
+        font-size: 18px;
+        padding: 4px 0;
+    }
+
+    form>p>a{
+        width: 60vw;
+        font-size: 18px;
+    }
+
+    button>a{
+        font-size: 16px;
+    }
+
+    button{
+        padding: 18px 28;
+
+    }
+
+    form>span{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:455px){
+    .mani{
+        height: 700px;
+    }
+
+    .about-text-top{
+        height: 200px;
+    }
+
+    .about-text-top p:first-child{
+        font-size: 20px;
+    }
+
+    .about-text-top p:nth-child(2){
+        font-size: 13px;
+    }
+
+    .about-img{
+        width: 50%;
+        height: 280px;
+    }
+
+    .about-text-boutem{
+        height: 680px;
+    }
+
+    .about-text-boutem-content{
+        width: 85%;
+    }
+
+    .about-text-boutem-content p:first-child{
+        font-size: 20px;
+    }
+
+    .about-text-boutem-content p:nth-child(2){
+        font-size: 10px;
+    }
+
+    .login{
+        width: 82vw;
+    }
+
+    .login>h2{
+        font-size: 24px;
+    }
+
+    form>input{
+        width: 70vw;
+    }
+
+    form>p{
+        font-size: 15px;
+    }
+
+    form>p>a{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .hero-part-01 {
+        height: 550px;
+    }
+
+    .hero-part-02 {
+        height: 700px;
+    }
+
+    .hero-part-02-text {
+        height: 340px;
+    }
+
+    .hero-part-01-text {
+        height: 200px;
+    }
+
+    .hero-part-01-text p:first-child {
+        font-size: 15px;
+    }
+
+    .hero-part-01-text p:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .hero-part-02-text p:first-child {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .hero-part-02-text p:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .facillites-text{
+        height: 280px;
+    }
+
+    .services-text{
+        height: 280px;
+    }
+
+    .services-text p:first-child{
+        font-size: 27px;
+    }
+
+    .services-text p:nth-child(2){
+        font-size: 13px;
+    }
+
+    .img-name p{
+        font-size: 24px;
+    }
+
+    .join-now{
+        width: 70%;
+    }
+
+     .join-now>h2{
+        font-size: 28px;
+    }
+
+    .join-now>form p{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .join-now>form input{
+        width: 60vw;
+    }
+
+    .join-now>form input:nth-child(10){
+        font-size: 20px;
+    }
+}
